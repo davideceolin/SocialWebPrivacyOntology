@@ -9,15 +9,78 @@
 ]>
 
 
-<rdf:RDF xmlns="http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-6#"
-     xml:base="http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-6"
+<rdf:RDF xmlns="http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-2"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-6">
-        <owl:imports rdf:resource="http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-2"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-2">
+        <owl:imports rdf:resource="http://rdfs.org/sioc/ns#"/>
+        <owl:imports rdf:resource="http://schema.rdfs.org/all"/>
+        <owl:imports rdf:resource="http://schema.rdfs.org/mappings#sioc2schemaorg"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://rdfs.org/sioc/ns#Item -->
+
+    <rdf:Description rdf:about="http://rdfs.org/sioc/ns#Item">
+        <owl:equivalentClass rdf:resource="http://rdfs.org/sioc/ns/Item"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://rdfs.org/sioc/ns/Item -->
+
+    <rdf:Description rdf:about="http://rdfs.org/sioc/ns/Item"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-2#FacebookComment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-2#FacebookComment">
+        <rdfs:subClassOf rdf:resource="http://rdfs.org/sioc/ns#Post"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-2#FacebookPost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-2#FacebookPost">
+        <rdfs:subClassOf rdf:resource="http://rdfs.org/sioc/ns#Post"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-2#PrivacyPolicy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-2#PrivacyPolicy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-2#PrivacySetting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-2#PrivacySetting"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-2#Tweet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-2#Tweet">
+        <rdfs:subClassOf rdf:resource="http://rdfs.org/sioc/ns#Post"/>
+    </owl:Class>
 </rdf:RDF>
 
 
