@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.w3.org/ns/prov-o-20130430" uri="https://dvcs.w3.org/hg/prov/raw-file/default/ontology/ProvenanceOntology.owl#"/>
+    <uri id="Imports Wizard Entry" name="http://www.openannotation.org/spec/core/20130208/oa.owl" uri="http://www.w3.org/ns/oa#"/>
+    <uri id="Imports Wizard Entry" name="http://www.w3.org/ns/prov-o-inverses-20130430" uri="http://www.w3.org/ns/prov#"/>
+    <uri id="Imports Wizard Entry" name="http://schema.rdfs.org/mappings#sioc2schemaorg" uri="http://schema.rdfs.org/mappings/sioc"/>
+    <uri id="Imports Wizard Entry" name="http://schema.rdfs.org/all" uri="http://schema.rdfs.org/all.rdf"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1436698722972" name="http://www.semanticweb.org/dceolin/ontologies/2015/6/untitled-ontology-8" uri="swpo.owl"/>
+    </group>
+</catalog>
